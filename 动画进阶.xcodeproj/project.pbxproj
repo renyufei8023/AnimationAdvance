@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		53346D75267A71F28BC0ED0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E99DB0EA3AC06B7134762 /* libPods.a */; };
 		A39676161C2CDC10003C2A61 /* ComprehensiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39676151C2CDC10003C2A61 /* ComprehensiveViewController.m */; };
+		A3EE3A631C3D0A8400FD476F /* LodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EE3A621C3D0A8400FD476F /* LodingViewController.m */; };
 		A3F607711C2BF21E00B49A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F607701C2BF21E00B49A28 /* main.m */; };
 		A3F607741C2BF21E00B49A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F607731C2BF21E00B49A28 /* AppDelegate.m */; };
 		A3F607771C2BF21E00B49A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F607761C2BF21E00B49A28 /* ViewController.m */; };
@@ -47,6 +48,8 @@
 		172E99DB0EA3AC06B7134762 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39676141C2CDC10003C2A61 /* ComprehensiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComprehensiveViewController.h; sourceTree = "<group>"; };
 		A39676151C2CDC10003C2A61 /* ComprehensiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComprehensiveViewController.m; sourceTree = "<group>"; };
+		A3EE3A611C3D0A8400FD476F /* LodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LodingViewController.h; sourceTree = "<group>"; };
+		A3EE3A621C3D0A8400FD476F /* LodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LodingViewController.m; sourceTree = "<group>"; };
 		A3F6076C1C2BF21E00B49A28 /* 动画进阶.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画进阶.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F607701C2BF21E00B49A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3F607721C2BF21E00B49A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -201,6 +204,8 @@
 				A3F607B61C2BFAEF00B49A28 /* BaseViewController.m */,
 				A39676141C2CDC10003C2A61 /* ComprehensiveViewController.h */,
 				A39676151C2CDC10003C2A61 /* ComprehensiveViewController.m */,
+				A3EE3A611C3D0A8400FD476F /* LodingViewController.h */,
+				A3EE3A621C3D0A8400FD476F /* LodingViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 				A3F607741C2BF21E00B49A28 /* AppDelegate.m in Sources */,
 				A3F607A81C2BFA4C00B49A28 /* BasicAnimationViewController.m in Sources */,
 				A3F607AB1C2BFA6B00B49A28 /* KeyAnimationViewController.m in Sources */,
+				A3EE3A631C3D0A8400FD476F /* LodingViewController.m in Sources */,
 				A3F607711C2BF21E00B49A28 /* main.m in Sources */,
 				A3F607A41C2BF5D200B49A28 /* TableViewController.m in Sources */,
 			);

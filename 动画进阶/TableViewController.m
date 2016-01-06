@@ -24,7 +24,8 @@
                         @"组动画",
                         @"过渡动画",
                         @"仿射变换",
-                        @"综合案例"];
+                        @"综合案例",
+                        @"等待动画"];
     }
     return _titleArray;
 }
@@ -37,7 +38,8 @@
                         @"GroupAnimationViewController",
                         @"TransAnimationViewController",
                         @"AffineTransformViewController",
-                        @"ComprehensiveViewController"];
+                        @"ComprehensiveViewController",
+                        @"LodingViewController"];
     }
     return _classNames;
 }

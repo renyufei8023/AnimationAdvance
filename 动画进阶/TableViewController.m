@@ -25,7 +25,8 @@
                         @"过渡动画",
                         @"仿射变换",
                         @"综合案例",
-                        @"等待动画"];
+                        @"等待动画",
+                        @"CAReplicatorLayer动画"];
     }
     return _titleArray;
 }
@@ -39,7 +40,8 @@
                         @"TransAnimationViewController",
                         @"AffineTransformViewController",
                         @"ComprehensiveViewController",
-                        @"LodingViewController"];
+                        @"LodingViewController",
+                        @"CAReplicatorLayerViewController"];
     }
     return _classNames;
 }

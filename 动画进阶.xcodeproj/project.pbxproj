@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		53346D75267A71F28BC0ED0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E99DB0EA3AC06B7134762 /* libPods.a */; };
 		A39676161C2CDC10003C2A61 /* ComprehensiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39676151C2CDC10003C2A61 /* ComprehensiveViewController.m */; };
+		A3B183BB1CE031540059544A /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B183BA1CE031540059544A /* CAReplicatorLayerViewController.m */; };
+		A3B183BE1CE031AD0059544A /* CAReplicatorLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B183BD1CE031AD0059544A /* CAReplicatorLayerAnimation.m */; };
 		A3EE3A631C3D0A8400FD476F /* LodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EE3A621C3D0A8400FD476F /* LodingViewController.m */; };
 		A3F607711C2BF21E00B49A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F607701C2BF21E00B49A28 /* main.m */; };
 		A3F607741C2BF21E00B49A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F607731C2BF21E00B49A28 /* AppDelegate.m */; };
@@ -48,6 +50,10 @@
 		172E99DB0EA3AC06B7134762 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39676141C2CDC10003C2A61 /* ComprehensiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComprehensiveViewController.h; sourceTree = "<group>"; };
 		A39676151C2CDC10003C2A61 /* ComprehensiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComprehensiveViewController.m; sourceTree = "<group>"; };
+		A3B183B91CE031540059544A /* CAReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		A3B183BA1CE031540059544A /* CAReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		A3B183BC1CE031AD0059544A /* CAReplicatorLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerAnimation.h; sourceTree = "<group>"; };
+		A3B183BD1CE031AD0059544A /* CAReplicatorLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerAnimation.m; sourceTree = "<group>"; };
 		A3EE3A611C3D0A8400FD476F /* LodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LodingViewController.h; sourceTree = "<group>"; };
 		A3EE3A621C3D0A8400FD476F /* LodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LodingViewController.m; sourceTree = "<group>"; };
 		A3F6076C1C2BF21E00B49A28 /* 动画进阶.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画进阶.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +163,8 @@
 				A3F607801C2BF21F00B49A28 /* Info.plist */,
 				A3F6076F1C2BF21E00B49A28 /* Supporting Files */,
 				A3F607B81C2BFF0500B49A28 /* PrefixHeader.pch */,
+				A3B183BC1CE031AD0059544A /* CAReplicatorLayerAnimation.h */,
+				A3B183BD1CE031AD0059544A /* CAReplicatorLayerAnimation.m */,
 			);
 			path = "动画进阶";
 			sourceTree = "<group>";
@@ -206,6 +214,8 @@
 				A39676151C2CDC10003C2A61 /* ComprehensiveViewController.m */,
 				A3EE3A611C3D0A8400FD476F /* LodingViewController.h */,
 				A3EE3A621C3D0A8400FD476F /* LodingViewController.m */,
+				A3B183B91CE031540059544A /* CAReplicatorLayerViewController.h */,
+				A3B183BA1CE031540059544A /* CAReplicatorLayerViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -400,6 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B183BB1CE031540059544A /* CAReplicatorLayerViewController.m in Sources */,
+				A3B183BE1CE031AD0059544A /* CAReplicatorLayerAnimation.m in Sources */,
 				A3F607B41C2BFAD400B49A28 /* AffineTransformViewController.m in Sources */,
 				A3F607B71C2BFAEF00B49A28 /* BaseViewController.m in Sources */,
 				A3F607B11C2BFAB300B49A28 /* TransAnimationViewController.m in Sources */,
